@@ -1,7 +1,11 @@
 module.exports = {
     purge: {
         enabled: true,
-        content: ['./src/**/*.html', './src/**/*.js']
+        content: ['./src/**/*.html', './src/**/*.js'],
+        options: {
+            keyframes: true,
+            fontFace: true
+        }
     },
     darkMode: 'class',
     theme: {
