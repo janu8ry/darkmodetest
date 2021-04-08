@@ -1,0 +1,21 @@
+{
+  "name": "darkmode",
+  "version": "1.0.0",
+  "homepage": "https://janu8ry.github.io/darkmodetest",
+  "description": "testing tailwindcss darkmode",
+  "main": "src/index.js",
+  "repository": "https://github.com/janu8ry/DarkModeTest",
+  "author": "janu8ry",
+  "license": "MIT",
+  "scripts": {
+    "build": "postcss src/tailwind.css -o public/index.css"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.2.5",
+    "postcss": "^8.2.9",
+    "tailwindcss": "^2.1.1"
+  },
+  "devDependencies": {
+    "postcss-cli": "^8.3.1"
+  }
+}
